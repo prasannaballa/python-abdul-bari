@@ -1,0 +1,15 @@
+price=12.5
+price of item=12.5 # not valid
+price-item=10 # not valid
+price_item=10 # valid
+price$item=10 # not valid
+price1=10 # valid
+price2=10 # valid
+x1=10 # valid
+1x=10  # not valid
+_x=10 # valid
+while=10  # not valid
+a=20 # valid
+A=21 # valid
+print(a)
+print(A)
