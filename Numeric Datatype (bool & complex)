@@ -1,0 +1,13 @@
+a=True
+print(a)
+int(a)
+print(int(a)) 
+print(type(a)) # <class 'bool'> output
+
+# complex
+x=3+5j
+print(x) 
+print(type(x)) # <class 'complex'> -output
+y=3+5j # SyntaxError: invalid decimal literal beacuse 'i' is the uses caases in python
+a=1.33+3.55j
+print (a) # (1.33+3.55j) out put
