@@ -1,0 +1,22 @@
+# int-literas
+a=123_345
+print(a)
+b=1_2
+print(b)
+
+# float literas
+f=123_45.66
+print(f)
+
+#complex literas
+f=1_2_3
+print(f)
+f= 54+12j
+print(f)
+# string literas
+name='jhon'
+print(name)
+name="jhon"
+print(name)
+price=input("Enter price")
+print(price)
