@@ -1,0 +1,15 @@
+i=15
+f=16.59
+b=True
+c=10+6j
+s1='jhon'
+s2='125'
+s3=True
+#vconverted into int
+x=int(f)
+x=int(b)
+print(x) # output is 16y
+print(x)# out put is 1
+x=int(s2)
+ # we can convert s1 beacuse it is name 
+print(x) # output is 125 
