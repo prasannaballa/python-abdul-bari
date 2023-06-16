@@ -1,0 +1,48 @@
+# area a= l*b
+length= int(input('Enter Length of Rectangle'))
+bredth= int(input('Enter bredth of Rectangle'))
+area= length*bredth
+print('Area is', area)
+print(area)
+# area of triangle 1/2bh
+base= int(input('Enter base'))
+height= int(input('Enter height'))
+area = 1/2* base * height
+print('area is', area)
+print(area)
+
+#rhombus area 1/2(a+b)h
+a= int(input('Enter a'))
+b= int(input('Enter b'))
+height= int(input('Enter height'))
+area = 1/2* (a+b) * height
+print('area is', area)
+print(area)
+
+# displacement v^2-u^2/2a
+u = float(input('Enter inital velocity'))
+v = float(input('Enter Final velocity'))
+a = float(input('Enter acceleration'))
+d = (v**2-u**2) /(2*a)
+print('Displacement is',d)
+print(d)
+
+# outputs 
+Enter Length of Rectangle5
+Enter bredth of Rectangle6
+Area is 30
+30
+Enter base6
+Enter height8
+area is 24.0
+24.0
+Enter a8
+Enter b8
+Enter height9
+area is 72.0
+72.0
+Enter inital velocity5
+Enter Final velocity20
+Enter acceleration6
+Displacement is 31.25
+31.25
