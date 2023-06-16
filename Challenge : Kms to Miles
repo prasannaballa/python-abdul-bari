@@ -1,0 +1,17 @@
+
+# km to miles
+km = float (input('Enter km'))
+miles = km * 0.621371
+print(miles)
+
+#- area of circle
+import math
+radius = float(input('Enter Radius'))
+area = math.pi * radius **2
+print(area)
+
+# output
+Enter km8
+4.970968
+Enter Radius10
+314.1592653589793
