@@ -1,0 +1,14 @@
+a = int(input('Enter a number'))
+if a < 0:
+    print('Negative')
+else:
+    print('Postive')
+# output
+
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a number-12
+Negative
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a number12
+Postive
+PS C:\Users\balla.kumar> 
