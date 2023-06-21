@@ -1,0 +1,30 @@
+# find difference b/w 2 numbers
+no1 = int(input('Enter first number'))
+no2 = int (input('Enter second number'))
+
+if no1-no2>=0:
+    print(no1-no2)
+else:
+    print(no2-no1)
+
+# check if a number is odd or even
+n=int(input('Enter a number'))
+
+if n % 2 == 0:
+   print('Even')
+else:
+    print('Odd')    # output Enter first number20
+                             Enter second number5
+                             15
+
+# check for age eligibility for casting vote
+age=int(input('Enter a number'))
+if age>=18:
+    print('Eligibity')
+else:
+    print('Not Eligibility')
+ # output Enter a number17
+Not Eligibility
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a number20
+Eligibity
