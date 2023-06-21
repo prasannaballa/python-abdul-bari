@@ -1,0 +1,9 @@
+# check if a person eligble or not for work
+maths = int(input('Enter maths marks'))
+physic = int(input('Enter physic marks'))
+chemi = int(input('Enter chemi marks'))
+
+if maths>=45 and physic>=45 and chemi>= 45:
+    print('Pass')
+else:
+    print('Failed')
