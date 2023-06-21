@@ -1,0 +1,50 @@
+# check of marks of a subject  are with range 0-100
+marks=int(input('Enter a marks'))
+if marks>=0 and marks<=100:
+   print('valid')
+else:
+    print('Invalid')
+# output
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a marks13
+valid
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a marks120
+Invalid
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a marks-23
+Invalid
+
+
+
+# check if person male or female 
+gender= input('Enter Gender')
+if gender== 'm' or gender== 'M':
+    print('Male')
+else: 
+    print('female')
+    # output 
+    Enter Genderm
+Male
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter Genderl
+female
+
+# check if a person eligble or not for work
+age = int(input('Enter a age'))
+
+if age>=18 and age<=60:
+    print('Eligible')
+else:
+    print('Not Eligible')
+    
+#output 
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a age17
+Not Eligible
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a age89
+Not Eligible
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a age45
+Eligible
