@@ -38,3 +38,20 @@ Enter chemi marks76
 Pass
 Failed
 Pass
+
+# check if a person authorize for admin access
+user= input('Enter user')
+if user== 'jhon' or user== 'smith':
+    print('authorize')
+else: 
+    print('non authorize')
+
+# output 
+Enter userjhon
+authorize
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter userprasanna
+non authorize
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter usersmith
+authorize
