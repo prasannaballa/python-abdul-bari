@@ -17,6 +17,26 @@ Failed
 
 maths = int(input('Enter maths marks'))
 physic = int(input('Enter physic marks'))
+
+# check if a given lower charcteris a vowel or constant
+user= input('Enter user')
+if user== 'jhon' or user== 'smith':
+    print('authorize')
+else: 
+    print('non authorize')
+ch= input('Enter letters')
+if ch=='a'or ch=='e'or ch=='i'or ch=='o'or ch=='o':
+    print('vowel')
+else:
+    print('constants')
+# output 
+Enter lettersk
+constants
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter userk
+non authorize
+Enter lettersa
+vowel
 chemi = int(input('Enter chemi marks'))
 
 if maths>=45:
