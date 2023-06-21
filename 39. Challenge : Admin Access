@@ -7,3 +7,34 @@ if maths>=45 and physic>=45 and chemi>= 45:
     print('Pass')
 else:
     print('Failed')
+# output
+Enter maths marks78
+Enter physic marks33
+Enter chemi marks78
+Failed
+   
+   # if you want particular subject write linke below code 
+
+maths = int(input('Enter maths marks'))
+physic = int(input('Enter physic marks'))
+chemi = int(input('Enter chemi marks'))
+
+if maths>=45:
+    print('Pass')
+else:
+    print('Failed')
+if physic>=45:
+    print('Pass')
+else:
+    print('Failed')
+if chemi>=45:
+    print('Pass')
+else:
+    print('Failed')
+   # out put 
+   Enter maths marks65
+Enter physic marks34
+Enter chemi marks76
+Pass
+Failed
+Pass
