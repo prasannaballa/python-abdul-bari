@@ -1,0 +1,29 @@
+# 42. Challenge : Displaying Name of a Day
+day=int(input('Enter a day number'))
+if day==1:
+    print('sunday')
+elif day==2:
+    print('monday')
+elif day==3:
+    print('tuesday')
+elif day==4:
+    print('wednday')
+elif day==5:
+    print('thursday')
+elif day==6:
+    print('friday')
+elif day==7:
+    print('saturday')
+else:
+    print('Not valid')
+   
+# output
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a day1
+sunday
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a day number5
+thursday
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a day number12
+Not valid
