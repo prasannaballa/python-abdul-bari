@@ -1,0 +1,23 @@
+# 43. Challenge : Leap Year or Not
+
+year=int(input('Enter year'))
+if year % 100 == 0 :
+  if year % 400 == 0:
+    print('leap')
+  else:
+    print('Not leap')
+elif year % 4 ==0:
+    print('leap')
+
+else:
+    print('Not leap')
+   
+   # output
+   Enter year2024
+leap
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter year1600
+leap
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter year1700
+Not leap
