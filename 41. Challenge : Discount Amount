@@ -1,0 +1,22 @@
+# discount amount
+amount =float(input('Enter amount'))
+if amount <=1000:
+    discount = amount *10 / 100
+elif amount >=1000 and amount<=5000:
+    discount = amount * 20 / 100
+elif amount >= 5000 and amount <= 10000:
+    discount = amount * 30 / 100
+else:
+    discount= amount * 50 / 100
+discamount= amount-discount
+print('pay',discamount)
+
+# output
+Enter amount700
+pay 630.0
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter amount6000
+pay 4200.0
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter amount12000
+pay 6000.0
