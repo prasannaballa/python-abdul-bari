@@ -1,0 +1,10 @@
+a=('America' < 'Brazil')
+print(a)
+a=('brazil'< 'Brazil')
+print(a)
+
+# output
+True
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+True
+False
