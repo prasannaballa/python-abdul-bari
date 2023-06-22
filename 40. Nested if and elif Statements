@@ -1,0 +1,40 @@
+# check if a given lower charcteris a vowel or constant
+jhon= float(input("Enter jhon's age"))
+smith= float(input("Enter smith's age"))
+ajay= float(input("Enter ajay's age"))
+if jhon>smith>ajay:
+    print('jhon is elder')
+else: 
+   if smith>ajay:
+    print('smith is elder')
+   else:
+     print('ajay id elder')
+
+# elif condition
+jhon= float(input("Enter jhon's age"))
+smith= float(input("Enter smith's age"))
+ajay= float(input("Enter ajay's age"))
+if jhon>smith>ajay:
+    print('jhon is elder')
+elif smith>ajay:
+    print('smith is elder')
+else:
+     print('ajay id elder')
+# both outputs
+Enter jhon's age23
+Enter smith's age21
+Enter ajay's age26
+ajay id elder
+Enter jhon's age23
+Enter smith's age21
+Enter ajay's age26
+ajay id elder
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter jhon's age21
+Enter smith's age28
+Enter ajay's age22.5
+smith is elder
+Enter jhon's age26.6
+Enter smith's age23.5
+Enter ajay's age22.5
+jhon is elder
