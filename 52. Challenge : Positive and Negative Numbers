@@ -22,3 +22,16 @@ while count < num_of_nos:
     count = count + 1  
 print('postive sum is',Psum)
 print('negative sum is',Nsum)
+ 
+# output
+Enter number of number2
+Enter a number2 
+Enter a number2
+Sum is 4
+Enter number of number4
+Enter a number-2
+Enter a number3
+Enter a number-2
+Enter a number3
+postive sum is 6
+negative sum is -4
