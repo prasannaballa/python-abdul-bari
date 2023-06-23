@@ -1,0 +1,24 @@
+# Find sum of given numbers as input
+num_of_nos= int(input('Enter number of number'))
+sum=0
+count=0
+while count < num_of_nos:
+    n=int(input('Enter a number'))
+    sum = sum+n
+    count = count+1
+print('Sum is',sum)
+
+#find sum of postive and negative numbers
+num_of_nos= int(input('Enter number of number'))
+Psum = 0
+Nsum = 0
+count = 0
+while count < num_of_nos:
+    n = int(input('Enter a number'))
+    if n > 0 :
+        Psum = Psum + n
+    else:
+        Nsum = Nsum + n
+    count = count + 1  
+print('postive sum is',Psum)
+print('negative sum is',Nsum)
