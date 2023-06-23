@@ -1,0 +1,41 @@
+# counting the number of digits in a number
+n= int(input('Enter a number'))
+counter = 0
+while n> 0:
+    n = n // 10
+    counter+=1
+    print('Number of Digits are',counter)
+
+#  find the sum of digits in a number
+n=int(input('Enter a number'))
+sum = 0
+while n>0:
+    r=n%10
+    n= n//10
+    sum = sum+r
+print ('sum of digits is',sum)
+
+# reverse numbering and palindrome or not
+n=int(input('Enter a number'))
+rev = 0
+m=n
+while n>0:
+    r=n%10
+    n= n//10
+    rev = rev*10+r
+print ('Reverse number is',rev)
+if m==rev:
+    print('Palindrome')
+else:
+    print('not a Palindrome')
+# output
+Enter a number1343
+Number of Digits are 1
+Number of Digits are 2
+Number of Digits are 3
+Number of Digits are 4
+Enter a number456
+sum of digits is 15
+Enter a number1221
+Reverse number is 1221
+Palindrome
