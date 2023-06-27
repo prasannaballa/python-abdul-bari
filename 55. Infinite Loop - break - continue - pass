@@ -67,3 +67,31 @@ Enter a number13
 13
 Enter a number14
 14
+# output
+# pass infinite loop
+count=0
+while count<10:
+    n= int(input('Enter a number'))
+    if n%3 == 0:
+        pass
+    else:
+       print(n) # it will print only upto 10 value only
+    count += 1
+# output
+Enter a number1
+1
+Enter a number2
+2
+Enter a number3
+Enter a number4
+4
+Enter a number5
+5
+Enter a number6
+Enter a number7
+7
+Enter a number8
+8
+Enter a number9
+Enter a number10
+10
