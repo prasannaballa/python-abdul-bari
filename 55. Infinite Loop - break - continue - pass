@@ -24,3 +24,46 @@ postive
 Enter a number-9
 negative      
 Enter a number0
+
+# # contine
+count=0
+while count<10:
+    n= int(input('Enter a number'))
+    print(n)
+    count += 1
+# output we will get 10 values
+
+
+# contine
+count=0
+while count<10:
+    n= int(input('Enter a number'))
+    if n%3 == 0:
+        continue
+    print(n)
+    # divisible by 3 and values max numers answers 10 values we get countiue use for logical 
+# output 
+Enter a number1
+1
+Enter a number2
+2
+Enter a number3
+Enter a number4
+4
+Enter a number5
+5
+Enter a number6
+Enter a number7
+7
+Enter a number8
+8
+Enter a number9
+Enter a number10
+10
+Enter a number11
+11
+Enter a number12
+Enter a number13
+13
+Enter a number14
+14
