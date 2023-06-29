@@ -1,0 +1,68 @@
+# for loop
+msg = 'Hello'
+
+for x in msg:
+    print(x)
+# 
+for i in range(10,0,-1): # (0,10) (5,10) (0,10,2) (10,0,-1)
+    print(i)
+
+# output
+H
+e
+l
+l
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/baH
+e
+l
+l
+o
+5
+6
+7
+8
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+H
+e
+l
+l
+o
+5
+7
+9
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/baH
+e
+l
+l
+o
+0
+2
+4
+6
+8
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+H
+e
+l
+l
+o
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
