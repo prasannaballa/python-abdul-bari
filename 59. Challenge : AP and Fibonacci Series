@@ -1,0 +1,33 @@
+# Print n terms of AP series
+a = int(input('Enter inital term'))
+d= int(input('Enter common Difference'))
+n = int(input('Enter Number of Terms'))
+
+for t in range(a,a+n*d,d):
+    print(t)
+
+# Prnt n terms of Fibonacci series
+n= int(input('Enter Number'))
+a=0
+b=1
+for i in range (n):
+    print(a)
+    c=a+b
+    a=b
+    b=c
+
+# output both programs
+Enter inital term3
+Enter common Difference5
+Enter Number of Terms6
+3
+13
+18
+23
+28
+Enter Number5
+0
+1
+1
+2
+3
