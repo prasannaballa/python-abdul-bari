@@ -1,0 +1,35 @@
+# break
+for i in range(0,10):
+    if i > 5:
+        break;
+    else:
+        print(i)
+else:
+    print('For complete properly')
+
+# pass
+for i in range(0,10):
+    pass
+print('Program ended')
+
+# continue
+for i in range (0,10):
+    if i % 5 == 0: # 5 missed output but it continued
+        continue
+    print(i)
+# output these are 
+0
+1
+2
+3
+4
+5
+Program ended
+1
+2
+3
+4
+6
+7
+8
+9
