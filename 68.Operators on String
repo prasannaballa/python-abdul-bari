@@ -1,0 +1,161 @@
+# concatenation
+s1 = 'hello'
+print(s1)
+s2 ="hello"
+print(s2)
+# s3 = 'jhon's' # syntax error
+s4= "jhon's"
+print(s4)
+#
+s1 = 'Hello'
+s2 = 'world'
+s3= s1+s2
+print(s3)
+#
+s3 = 'Hello' 'world'
+print(s3)
+#
+# s3 = 'hello'+15 Traceback (most recent call last):
+#  File "c:\Users\balla.kumar\Downloads\main.py", line 17, in <module>
+#   s3 = 'hello'+15
+#       ~~~~~~~^~~
+#TypeError: can only concatenate str (not "int") to str
+# print(s3)
+# using str
+s3 = 'Hello'+str(15)
+print(s3)
+#
+s3 = 'how'+'are'+'you'
+print(s3)
+
+# repetition
+s1='hi'
+print(s1*3) # only works int values not working float 
+
+# indexing 
+s1 ='hello world'
+print(len(s1))
+
+#
+for i in range (0,len(s1)):
+    print(s1[i])
+#
+for i in range (len(s1)-1,-1,-1):
+    print(s1[i])
+#
+for i in range (0,len(s1),2):
+    print(s1[i])
+# 
+#slicing
+print(s1[3::])
+print(s1[6::])
+print(s1[6:8:])
+print(s1[::2])
+print(s1[::-1])
+print(s1[-1:-len(s1)-1:-1])
+print(s1[-1::-1])
+print(s1[-1::-2])
+# in and not in
+print('h'in (s1))
+print('H'in (s1))
+print('me'in (s1))
+print('me'not in (s1))
+
+# all programs output here
+hello
+hello
+jhon's
+Helloworld
+Helloworld
+Hello15
+howareyou
+hihihi
+11
+h
+e
+l
+l
+o
+
+w
+o
+r
+l
+d
+d
+l
+r
+o
+w
+
+o
+l
+l
+e
+h
+h
+l
+o
+w
+r
+d
+world
+wo
+hlowrd
+dlrow olleh
+dlrow olleh
+dlrow olleh
+drwolh
+True
+False
+False
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+hello
+hello
+jhon's
+Helloworld
+Helloworld
+Hello15
+howareyou
+hihihi
+11
+h
+e
+l
+l
+o
+
+w
+o
+r
+l
+d
+d
+l
+r
+o
+w
+
+o
+l
+l
+e
+h
+h
+l
+o
+w
+r
+d
+lo world
+world
+wo
+hlowrd
+dlrow olleh
+dlrow olleh
+dlrow olleh
+drwolh
+True
+False
+False
+True
