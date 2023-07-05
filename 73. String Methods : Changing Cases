@@ -1,0 +1,11 @@
+# Capitalize
+s= 'hello dear'
+print(s.capitalize())
+s1= 'HELLO how Are YOU'
+print(s1.capitalize())
+
+# lower case method
+s2= 'HELLO how Are YOU'
+print(s2.lower())
+print(s2.upper())
+print(s2.casefold())
