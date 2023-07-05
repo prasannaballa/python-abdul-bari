@@ -1,0 +1,14 @@
+s= 'python'
+print(s.lstrip())
+print(s)
+print(s.lstrip())
+s1='... ... ++aaapython'
+print(s1.lstrip())
+print(s1.lstrip('.'))
+
+# output
+python
+python
+python
+... ... ++aaapython
+ ... ++aaapython
