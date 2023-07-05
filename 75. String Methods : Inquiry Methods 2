@@ -1,0 +1,79 @@
+s= 'HELLO'
+print(s.isupper())
+print(s.islower())
+print(s.istitle())
+s='hello'
+print(s.lower())
+print(s.islower())
+print(s.istitle())
+print(s.isupper())
+s='H'
+print(s.islower())
+print(s.istitle())
+print(s.isupper())
+
+s='abc1234'
+print(s.isalnum())
+s='abc$1234'
+print(s.isalnum())
+print(s.isascii())
+
+s='1lenght'
+print(s.isidentifier())
+s='lenght1'
+print(s.isidentifier())
+s= 'lenght-@3'
+print(s.isidentifier())
+
+s='if'
+print(s.isidentifier())
+
+s='hello how are you'
+print(s.isprintable())
+
+s='hello \n how are you'
+print(s.isprintable())
+
+s='\u03b1\u03b2\u03b3'
+print(s)
+
+# decimal
+s= '123'
+print(s.isdecimal())
+print(s.isdigit())
+print(s.isnumeric())
+
+s='8\u00b2'
+print(s)
+print(s.isdecimal())
+print(s.isdigit())
+print(s.isnumeric())
+
+# outputs
+True
+False
+False
+hello
+True
+False
+False
+False
+True
+True
+True
+False
+True
+False
+True
+False
+True
+True
+False
+αβγ
+True
+True
+True
+8²
+False
+True
+True
