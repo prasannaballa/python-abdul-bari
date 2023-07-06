@@ -1,0 +1,36 @@
+s= 'python is very easy'
+print(s.startswith('python'))
+print(s.startswith('py'))
+print(s.startswith('is'))
+print(s.startswith('is',7))
+
+s='sam khan'
+print(s.endswith('khan'))
+s= 'abc@gmail.com'
+print(s.endswith('@gmail.com'))
+
+s= 'pythonprogramming'
+print(s.removeprefix('py'))
+print(s)
+print(s.removeprefix('java'))
+print(s.removesuffix('ing'))
+
+s= 'python is very easy'
+print(s.partition('is'))
+print(s.partition('s'))
+print(s.rpartition('s'))
+
+# outputs
+True
+True
+False
+True
+True
+True
+thonprogramming
+pythonprogramming
+pythonprogramming
+pythonprogramm
+('python ', 'is', ' very easy')
+('python i', 's', ' very easy')
+('python is very ea', 's', 'y')
