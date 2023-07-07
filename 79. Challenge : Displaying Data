@@ -1,0 +1,20 @@
+item = input('Enter the item')
+price = input ('Enter price')
+
+total_length = len(item)+len(price)
+print(total_length)
+
+dots = '.'* (25-total_length)
+print(item+dots+price)
+
+# outputs
+
+Enter the itemchicken biryani
+Enter price150
+18
+chicken biryani.......150
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter the itemprawns biryani
+Enter price200
+17
+prawns biryani........200
