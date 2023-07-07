@@ -1,0 +1,61 @@
+#replace
+s= 'a-b-c-d-e'
+print(s)
+print(s.replace('-',','))
+print(s.replace('-',',',3))
+print(s.replace('k','m'))
+s= 'abcd@gmail.com'
+print(s.replace('gmail','yahoo'))
+# join
+s1='.xyz'
+s2='abc'
+print(s1.join(s2))
+s1='/'
+print(s1.join(s2))
+l1 = ['jhon','smith','ajay']
+s1='-'
+print(s1.join(l1))
+s1=','
+print(s1.join(l1))
+
+# split
+s ='john smith ajay'
+print(s.split())
+print(s.split('h'))
+
+s= 'jhon,smith,ajay'
+print(s.split(','))
+s = 'jhon-smith-ajay-khan-james'
+print(s.split())
+print(s.split('-'))
+print(s.split('-',3)) # khan-james see output
+print(s.rsplit('-'))
+print(s.rsplit('-',3))
+
+#splitlines
+s= 'aaa\nbbb\tccc\rddd\feee'
+print(s.splitlines())
+print(s.splitlines(keepends=True))
+print(s.split())
+
+# outpurs here
+a-b-c-d-e
+a,b,c,d,e
+a,b,c,d-e
+a-b-c-d-e
+abcd@yahoo.com
+a.xyzb.xyzc
+a/b/c
+jhon-smith-ajay
+jhon,smith,ajay
+['john', 'smith', 'ajay']
+['jo', 'n smit', ' ajay']
+['jhon', 'smith', 'ajay']
+['jhon-smith-ajay-khan-james']
+['jhon', 'smith', 'ajay', 'khan', 'james']
+['jhon', 'smith', 'ajay', 'khan-james']
+['jhon', 'smith', 'ajay', 'khan', 'james']
+['jhon-smith', 'ajay', 'khan', 'james']
+['aaa', 'bbb\tccc', 'ddd', 'eee']
+['aaa\n', 'bbb\tccc\r', 'ddd\x0c', 'eee']
+['aaa', 'bbb', 'ccc', 'ddd', 'eee']
