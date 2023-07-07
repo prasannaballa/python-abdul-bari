@@ -1,0 +1,19 @@
+s1= input('Enter a string')
+
+rev = s1[::-1]
+
+if s1 == rev:
+    print('Palindrome')
+else:
+    print('Not a Palindrome')
+
+# ouputs 
+Enter a stringmadam
+Palindrome
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a stringprasanna
+Not a Palindrome
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a stringpython
+Not a Palindrome
+PS C:\Users\balla.kumar>
