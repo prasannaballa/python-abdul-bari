@@ -1,0 +1,10 @@
+s = 'prasanna'
+ss = sorted(s)
+print(ss) # out put is list of alphabet
+
+s2=''.join(ss)
+print(s2)
+
+# output
+['a', 'a', 'a', 'n', 'n', 'p', 'r', 's']
+aaannprs
