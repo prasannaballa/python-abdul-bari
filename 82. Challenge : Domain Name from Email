@@ -4,3 +4,8 @@ atrate = emailid.find('@')
 print(atrate)
 print('user id:', emailid[:atrate])
 print('domain name:', emailid[atrate+1:])
+
+# outputs 
+Enter email idbprasanna881@gmail.com
+12
+user id: bprasanna881 
