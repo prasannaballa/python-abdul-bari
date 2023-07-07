@@ -1,0 +1,11 @@
+# credit card
+cardno = input('Enter card number')
+
+lastDigits = cardno[15::]
+four = '*'*4 + ''
+displayno = four * 3 + lastDigits
+print(displayno)
+
+# output here
+Enter card number4566 7888 3455 6777        
+************6777
