@@ -1,0 +1,132 @@
+s ='\N{dollar sign}'
+print(s)
+s ='\N{rupee sign}'
+print(s)
+s ='\N{pound sign}'
+print(s)
+
+# print function
+a=10
+b= 'ravi'
+c= 9.5
+print(a)
+print(b)
+print(a,b,c)
+print('hello','world')
+print('hello'+'world')
+print(a,b,c,sep='-')
+print(a, end='')
+print(b, end='')
+print(c)
+print(a, end=' ')
+print(b, end=' ')
+print(c)
+print(a, end='\t')
+print(b, end='\t')
+print(c)
+# c style fotmatting
+rollno = 10
+name = 'Ravi'
+avg = 86.29714
+print('Student name is %s,his roll no is %d and average is %f'%(name,rollno,avg))
+print('Student name is %s'%name)
+print('Student name is %10s'%name)    
+print(' roll number is %8d'%rollno)
+
+print(' roll number is %-8d'%rollno)
+
+print(' roll number is %8d and'%rollno)
+print('%2.5f'%avg)
+print('%2.3f'%avg)
+
+# output
+$
+₨
+£
+10
+ravi
+hello world
+helloworld
+10-ravi-9.5
+10ravi9.5
+10 ravi 9.5
+10      ravi    9.5
+Student name is Ravi,his roll no is 10 and average is 86.297140
+Student name is Ravi
+Student name is       Ravi
+ roll number is       10
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+$
+₨
+£
+10
+ravi
+10 ravi 9.5
+helloworld
+10-ravi-9.5
+10ravi9.5
+10 ravi 9.5
+10      ravi    9.5
+Student name is Ravi,his roll no is 10 and average is 86.297140
+Student name is Ravi
+Student name is       Ravi
+ roll number is       10
+ roll number is 10
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+$
+₨
+£
+10
+ravi
+10 ravi 9.5
+hello world
+10-ravi-9.5
+10ravi9.5
+10 ravi 9.5
+10      ravi    9.5
+Student name is Ravi,his roll no is 10 and average is 86.297140
+Student name is Ravi
+Student name is       Ravi
+ roll number is       10
+ roll number is 10
+ roll number is       10 and
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+$
+₨
+£
+10
+ravi
+10 ravi 9.5
+hello world
+helloworld
+10ravi9.5
+10 ravi 9.5
+10      ravi    9.5
+Student name is Ravi,his roll no is 10 and average is 86.297140
+Student name is Ravi
+Student name is       Ravi
+ roll number is       10
+ roll number is 10
+ roll number is       10 and
+86.29714
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+$
+₨
+£
+10
+ravi
+10 ravi 9.5
+hello world
+helloworld
+10-ravi-9.5
+10ravi9.5
+10 ravi 9.5
+10      ravi    9.5
+Student name is Ravi,his roll no is 10 and average is 86.297140
+Student name is Ravi
+Student name is       Ravi
+ roll number is       10
+ roll number is 10
+ roll number is       10 and
+86.29714
+86.297
