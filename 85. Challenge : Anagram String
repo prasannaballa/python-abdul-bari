@@ -1,0 +1,28 @@
+s1 = input('Enter a string')
+s2 = input ('Enter second string')
+
+if len(s1) !=  len(s2) :
+    print('Not Anagram')
+else:
+    for x in s1:
+        if x not in s2:
+            print('Not Anagram')
+            break;
+    else:
+      print('Anagram')
+
+# what is anagram
+ChatGPT
+An anagram is a word or phrase formed by rearranging the letters of another word or phrase. 
+In other words, the original word or phrase can be rearranged to create a new word or phrase that uses all the same letters.
+For example, the word "listen" can be rearranged to form the word "silent," making them anagrams of each other. 
+Anagrams can be a fun way to explore different combinations of letters and create new words or phrases.
+
+# output 
+Enter a stringmedicals
+Enter second stringdecimal
+Not Anagram
+PS C:\Users\balla.kumar> & C:/Users/balla.kumar/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/balla.kumar/Downloads/main.py
+Enter a stringlisten
+Enter second stringsilent
+Anagram
