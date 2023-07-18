@@ -1,0 +1,26 @@
+a = 22
+b = 7
+c = a/b
+print ('Divison of {}and{}is{}'.format(a,b,c))
+print ('Divison of {0}and{1}is{2}'.format(a,b,c))
+print ('Divison of {2}and{1}is{0}'.format(a,b,c))
+print ('Divison of {2}and{1}is{0}'.format(c,b,a))
+print ('Divison of {0:10}and{1:15}is{2:2.4}'.format(a,b,c))
+print ('Divison of {0:<10}and{1:^15}is{2:2.4}'.format(a,b,c))
+
+x = 1234567890
+print('{0:20,}'.format(x))
+print ('Divison of {0:<10}and{1:^15}is{2:E}'.format(a,b,c))
+
+print (f'Divison of {a:10}and{b:^15}is{c:2.4f}')
+
+# out put here
+Divison of 22and7is3.142857142857143
+Divison of 22and7is3.142857142857143
+Divison of 3.142857142857143and7is22
+Divison of 22and7is3.142857142857143
+Divison of         22and              7is3.143
+Divison of 22        and       7       is3.143
+       1,234,567,890
+Divison of 22        and       7       is3.142857E+00
+Divison of         22and       7       is3.1429
