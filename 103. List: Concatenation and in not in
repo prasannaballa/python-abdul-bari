@@ -1,0 +1,40 @@
+# operation list
+# +
+list1 = [1,2,3]
+list2 = [8,9,10]
+print(list1+list2)
+print(list1)
+print(list2)
+list1.extend([4,5,6])
+print(list1)
+list2 =list2+[11,12,13]
+print(list2)
+# *
+list1 =[1,2,3]
+print(list1*2)
+print(list1)
+print(list1*3)
+# in
+print(1 in list1)
+if 3 in list1:
+    print('Found')
+else:
+    print('Not Found')
+#
+if 5 in list1:
+    print('Found')
+else:
+    print('Not Found')
+
+# output here
+[1, 2, 3, 8, 9, 10]
+[1, 2, 3]
+[8, 9, 10]
+[1, 2, 3, 4, 5, 6]
+[8, 9, 10, 11, 12, 13]
+[1, 2, 3, 1, 2, 3]
+[1, 2, 3]
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+True
+Found
+Not Found
