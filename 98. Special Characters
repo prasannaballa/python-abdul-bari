@@ -1,0 +1,25 @@
+from re import*
+print(match('[a-z]+','abcdef').group())
+print(match('[a-z]+','python').group())
+print(match('[^a-z]+','A-23+@').group())
+print(match('([a-z]+|[A-Z]+)','abc').group())
+print(match('([a-z]+|[A-Z]+)','abcD').group())
+
+x =r'^Hell'
+c = compile(x)
+r = c.search('Hello World')
+print (r.group())
+
+x= r'rld$'
+c = compile(x)
+r = c.search('Hello World')
+print (r.group())
+
+# output here
+abcdef
+python
+A-23+@
+abc
+abc
+Hell
+rld
