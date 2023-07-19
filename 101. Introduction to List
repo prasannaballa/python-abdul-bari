@@ -1,0 +1,30 @@
+  Mylist = ['jhon','smith','mark','eric','smith']
+print(Mylist)
+
+# other methjods
+
+# list1 = list(1,2,3,4,5) # error out 
+list1 = list((1,2,3,4,5))
+print (list1)
+
+print(Mylist[2])
+
+# List Heterogeneous list allowes diff data also
+mylist = [15,9,12,18,7]
+print(mylist)
+mylist[0] = 30 # replace with 15 into 30
+print(mylist)
+mylist[4] = 'jhon'
+print(mylist)
+print(len(mylist))
+mylist.append(50)
+print(mylist)
+# output here
+['jhon', 'smith', 'mark', 'eric', 'smith']
+[1, 2, 3, 4, 5]
+mark
+[15, 9, 12, 18, 7]
+[30, 9, 12, 18, 7]
+[30, 9, 12, 18, 'jhon']
+5
+[30, 9, 12, 18, 'jhon', 50]
